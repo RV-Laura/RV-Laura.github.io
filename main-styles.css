@@ -101,7 +101,7 @@ header div nav{
     margin: 0px;
 }
 
-.module-content{ 
+section{ 
     display: grid;
     margin-top: 1px;
     width: 100%;
