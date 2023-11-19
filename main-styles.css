@@ -39,8 +39,16 @@ section{
     width: 100%;
     height: 100vh;
     background-color: #fef8f3;
-	
-	
+	display: flex;
+	justify-content: center;
+}
+
+.home-span {
+	position: relative;
+    margin: auto;
+    padding: 19px 22px;
+    transition: all 0.2s ease;
+	top:35%;
 }
 
 section a {
