@@ -1,8 +1,114 @@
 <!DOCTYPE html>
-<html>
-	<body>
-		<h1>Index Page</h1>
-		<p>This is the index page.</p>
-		<p>This website is hosted through GitHub Pages.</p>
-	</body>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crystal Exodus</title>
+    <link rel="stylesheet" href="main-styles.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- header -->
+    <header class="nav_top-menu">
+        <div id="dropdown-mn">
+            <button onclick="dropMenu()" class="dropbtn">
+                <img src="sources/img/menu-icon.svg" alt="menu" id="menu-icon">
+            </button>
+            <nav class="nav_menu-wrapper">
+                <ul class="nav_group">
+                    <il class="nav_dropdown-item"><a href="#">Home</a></il>
+                    <il class="nav_dropdown-item"><a href="#">Episodes</a></il>
+                    <il class="nav_dropdown-item"><a href="content-pages/characters/characters.html">Characters</a></il>
+                    <il class="nav_dropdown-item"><a href="#">Organisations</a></il>
+                    <il class="nav_dropdown-item"><a href="#">Authors' journey</a></il>
+                    <il class="nav_dropdown-item"><a href="#">Gallery</a></il>
+                </ul>
+            </nav>
+        </div>
+
+        <div>
+            <img src="sources/img/Draft_img.webp" alt="" id="main-img">
+        </div>
+    </header>
+    <!-- end header -->
+
+    <!-- scroll-container -->
+    <nav id="scroll">
+        <a href="#episodes-sc">
+            <img src="sources/img/circle-svgrepo-com.svg" alt="" class="scroll-img">
+        </a>
+        <a href="#character-sc">
+            <img src="sources/img/circle-svgrepo-com.svg" alt="" class="scroll-img">
+        </a>
+        <a href="#organisation-sc">
+            <img src="sources/img/circle-svgrepo-com.svg" alt="" class="scroll-img">
+        </a>
+        <a href="#authors-sc">
+            <img src="sources/img/circle-svgrepo-com.svg" alt="" class="scroll-img">
+        </a>
+        <a href="#gallery-sc">
+            <img src="sources/img/circle-svgrepo-com.svg" alt="" class="scroll-img">
+        </a>
+    </nav>
+    <!-- end scroll-container -->
+
+    <!-- content section -->
+    <scroll-container>
+        <scroll-page id="episodes-sc" class="episodes-module content">
+            <a href="#" class="cta">
+                <span>EPISODES</span>
+                <svg width="13px" height="10px" viewBox="0 0 13 10">
+                    <path d="M1,5 L11,5"></path>
+                    <polyline points="8 1 12 5 8 9"></polyline>
+                </svg>
+            </a>
+            <p class="p-description">Read the latest episode or begin a new one</p>
+        </scroll-page>
+        <scroll-page id="character-sc" class="character-module content">
+            <a href="content-pages/characters/characters.html" class="cta">
+                <span>CHARACTERS</span>
+                <svg width="13px" height="10px" viewBox="0 0 13 10">
+                    <path d="M1,5 L11,5"></path>
+                    <polyline points="8 1 12 5 8 9"></polyline>
+                </svg>
+            </a>
+            <p class="p-description">Learn more about the characters</p>
+        </scroll-page>
+        <scroll-page id="organisation-sc" class="organisation-module content">
+            <a href="#" class="cta">
+                <span>CRIMINAL ORGANISATIONS</span>
+                <svg width="13px" height="10px" viewBox="0 0 13 10">
+                    <path d="M1,5 L11,5"></path>
+                    <polyline points="8 1 12 5 8 9"></polyline>
+                </svg>
+            </a>
+            <p class="p-description">Learn more about the criminal organisations of the story</p>
+        </scroll-page>
+        <scroll-page id="authors-sc" class="authors-module content">
+            <a href="#" class="cta">
+                <span>AUTHORS NOTES</span>
+                <svg width="13px" height="10px" viewBox="0 0 13 10">
+                    <path d="M1,5 L11,5"></path>
+                    <polyline points="8 1 12 5 8 9"></polyline>
+                </svg>
+            </a>
+            <p class="p-description">Learn about the authors creation process</p>
+        </scroll-page>
+        <scroll-page id="gallery-sc" class="gallery-module content">
+            <a href="#" class="cta">
+                <span>GALLERY</span>
+                <svg width="13px" height="10px" viewBox="0 0 13 10">
+                    <path d="M1,5 L11,5"></path>
+                    <polyline points="8 1 12 5 8 9"></polyline>
+                </svg>
+            </a>
+            <p class="p-description">Take a look at the amazing art on the gallery</p>
+        </scroll-page>
+    </scroll-container>
+    <!-- end content section -->
+</body>
+
 </html>
