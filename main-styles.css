@@ -60,6 +60,7 @@ nav {
 scroll-container{
     display: flex;
     flex-direction: column;
+	scroll-snap-type: y mandatory;
 }	
 /*end scroll-container*/
 
@@ -113,6 +114,7 @@ header div nav{
     height: 105vh;
     background-color: #fef8f3;
     place-items: center;
+	scroll-snap-stop:normal;
 }
  
 /*code for animation content links
@@ -120,7 +122,7 @@ header div nav{
     scroll-behavior: smooth;
     place-items: center;
 */
-.content a {
+.module-content a {
     text-decoration: none;
     color: inherit;
 }
