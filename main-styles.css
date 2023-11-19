@@ -43,7 +43,6 @@ section{
     background-color: #fef8f3;
 	scroll-snap-align: start;
 	scroll-snap-stop:normal;
-	display: flex;
 	place-items: center;
 }
 
