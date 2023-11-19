@@ -23,21 +23,6 @@ body{
 }	
 
 /*section layout*/
-.dropbtn{ /*dropdown button*/
-    position: absolute;
-    right: 1vh;
-    background-color: rgba(255, 171, 157, 0.5);
-    border-radius: 10px;
-}
-
-.dropbtn:hover, .dropbtn:focus { /* Dropdown button on hover & focus */
-    background-color: rgba(255, 142, 89, 0.5);
-  }
-
-#dropdown-mn{ /* The container <div> - needed to position the dropdown content */
-    position: absolute;
-    display: inline-block;
-}
 
 a {
     text-decoration: none;
