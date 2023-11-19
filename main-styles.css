@@ -60,6 +60,7 @@ nav {
 scroll-container{
     display: flex;
     flex-direction: column;
+	overflow-y: scroll;
 	scroll-snap-type: y mandatory;
 }	
 /*end scroll-container*/
