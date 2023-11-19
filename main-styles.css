@@ -18,8 +18,6 @@ body{
 
 .scroll-container{
     height: 100%;
-	overflow-y: scroll;
-	scroll-snap-type: y mandatory;
 }	
 
 /*section layout*/
@@ -33,7 +31,7 @@ a {
     margin-bottom: 50px;
     max-width: 500px;
     text-align: center;
-    top: -45%;
+    top: -45vh;
 }
 
 section{ 
@@ -41,9 +39,8 @@ section{
     width: 100%;
     height: 100vh;
     background-color: #fef8f3;
-	scroll-snap-align: start;
-	scroll-snap-stop:normal;
-	place-items: center;
+	
+	
 }
 
 section a {
