@@ -62,9 +62,6 @@ scroll-container{
     flex-direction: column;
 	scroll-snap-type: y mandatory;
 }	
-.module-content{
-	scroll-snap-align: start;
-}
 /*end scroll-container*/
 
 
