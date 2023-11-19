@@ -27,7 +27,7 @@ a {
 }
 
 .p-description{
-	width: 100%;
+	width: 100vh;
     position: relative;
     margin-bottom: 50px;
     max-width: 500px;
@@ -57,6 +57,7 @@ section a {
 }
   
 .cta {
+	width: 100vh;
     position: relative;
     margin: 0 auto;
     padding: 19px 22px;
