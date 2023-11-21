@@ -40,9 +40,10 @@ a {
 }
 
 .div-aligner{
-	width:100%;
+	width:100vh;
 	display: flex;
 	justify-content: center;
+	top:40%;
 }
 
 section{ 
@@ -59,11 +60,10 @@ section a {
 }
   
 .cta {
-	width: 100%;
+	width: auto;
     position: relative;
     padding: 19px 22px;
     transition: all 0.2s ease;
-    top:40%;
 }
 
 .cta:before {
