@@ -27,6 +27,7 @@ a {
 }
 
 .p-description{
+	box-sizing: border-box;
 	width: 100%;
     position: relative;
     margin-bottom: 50px;
