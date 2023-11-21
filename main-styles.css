@@ -30,6 +30,8 @@ a {
 	width: 100%;
     position: relative;
     margin-bottom: 50px;
+	margin-left: 20px;
+	margin-right: 20px;
     text-align: center;
     top: 45%;
 	left: 50%;
