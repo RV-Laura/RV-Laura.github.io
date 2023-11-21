@@ -44,7 +44,8 @@ a {
 	width:100%;
 	display: flex;
 	justify-content: center;
-	top:40%;
+	position: relative;
+	top: 40%;
 }
 
 section{ 
