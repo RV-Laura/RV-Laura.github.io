@@ -1,3 +1,13 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -18,8 +28,6 @@ body{
 body .scroll-container{
     height: 100%;
 	width:  100%;
-	position: absolute;
-	top: -20px;
 	scroll-snap-points-y: repeat(100vh);
 	scroll-snap-type: y mandatory;
 	scroll-snap-type: mandatory;
