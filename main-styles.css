@@ -64,8 +64,6 @@ section a {
     padding: 19px 22px;
     transition: all 0.2s ease;
     top:35%;
-	left: 50%;
-	right: 50%;
 }
 
 .cta:before {
