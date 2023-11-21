@@ -32,6 +32,8 @@ a {
     margin-bottom: 50px;
     text-align: center;
     top: 45%;
+	left: 50%;
+	right: 50%;
 }
 
 section{ 
@@ -63,6 +65,7 @@ section a {
     transition: all 0.2s ease;
     top:35%;
 	left: 50%;
+	right: 50%;
 }
 
 .cta:before {
