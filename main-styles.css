@@ -43,14 +43,6 @@ section{
 	margin: 0 auto;
 }
 
-.home-span {
-	position: relative;
-    margin: auto;
-    padding: 19px 22px;
-    transition: all 0.2s ease;
-	top:35%;
-}
-
 section a {
 	width: 100%;
     text-decoration: none;
